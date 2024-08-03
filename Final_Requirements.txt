@@ -1,0 +1,35 @@
+- Xây dựng ứng dụng web quản lý công việc cho 2 loại người dùng là quản lý, lập trình viên và kiểm thử viên. Ứng dụng web quản lý công việc được xây dựng bằng ngôn ngữ lập trình Java, JavaEE framework và đáp ứng các yêu cầu sau:
+- Người dùng trong hệ thống có các thông tin sau:
+	+ Tên đang nhập
+	+ Mật khẩu
+	+ Họ và tên
+	+ Vai trò
+- Công việc trong hệ thống có các thông tin sau:
+	+ Mã công việc: Được tạo tự động
+	+ Tiêu đề công việc
+	+ Mô tả công việc
+	+ Trạng thái công việc: Mới (chưa nhận), Đang làm (đã nhận) và Đã hoàn thành.
+	+ Giai đoạn công việc: Phân tích, Phát triển, Chờ kiểm thử, Kiểm thử thất bại, Kiểm thử thành công.
+	+ Người chịu trách nhiệm
+	+ Người kiểm thử
+- Lập trình viên có thể:
+	+ Xem danh sách công việc của mình
+	+ Xem chi tiết công việc của mình
+	+ Cập nhật giai đoạn công việc
+	+ Cập nhật mô tả công việc
+	+ Nhận những công việc được giao cho mình trong trạng thái Mới.
+	+ Hoàn thành những công việc của mình ở giai đoạn Kiểm thử thành công.
+- Kiểm thử viên có thể:
+	+ Xem danh sách công việc trong các giai đoạn kiểm thử của mình
+	+ Xem chi tiết công việc trong các giai đoạn kiểm thử của mình
+	+ Cập nhật mô tả công việc trong các giai đoạn kiểm thử của mình
+	+ Cập nhật giai đoạn công việc trong các giai đoạn kiểm thử của mình
+- Quản lý có thể:
+	+ Xem danh sách tất cả công việc trong hệ thống.
+	+ Xem chi tiết tất cả công việc trong hệ thống.
+	+ Tạo mới công việc.
+	+ Cập nhật tất cả thông tin của tất cả công việc trong hệ thống.
+	+ Xóa công việc.
+	+ Xem danh sách tất cả người dùng trong hệ thống
+	+ Tạo mới người dùng trong hệ thống
+	+ Xóa người dùng trong hệ thống: Khi người dùng bất kỳ trong hệ thống bị xóa, những công việc liên quan tới người dùng đó phải được gỡ liên kết với người dùng đó.
