@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2024-08-06T14:02:18.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Zf1H6I32NZBlB0_rPmrW" version="24.0.4" type="device">
+  <diagram name="Page-1" id="MHWIQrnYTaqk1YBdm8Kd">
+    <mxGraphModel dx="1050" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-1" value="Lớp mô hình dữ liệu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-2" value="Models&lt;div&gt;(trong kiến trúc MVC)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Miap7tzGW8VN0-f9Lw3j-1" target="Miap7tzGW8VN0-f9Lw3j-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-4" value="Các lớp POJO&lt;div&gt;(Plain Old Java Objects)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Miap7tzGW8VN0-f9Lw3j-2" target="Miap7tzGW8VN0-f9Lw3j-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-6" value="fields" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-7" value="constructor mặc định" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-8" value="constructor tùy chỉnh&lt;div&gt;(Đầy đủ tham số)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="470" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-9" value="Getters và setters cho tất cả fields" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="590" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Miap7tzGW8VN0-f9Lw3j-4" target="Miap7tzGW8VN0-f9Lw3j-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="390" as="sourcePoint" />
+            <mxPoint x="710" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Miap7tzGW8VN0-f9Lw3j-4" target="Miap7tzGW8VN0-f9Lw3j-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="390" as="sourcePoint" />
+            <mxPoint x="710" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Miap7tzGW8VN0-f9Lw3j-4" target="Miap7tzGW8VN0-f9Lw3j-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="390" as="sourcePoint" />
+            <mxPoint x="710" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Miap7tzGW8VN0-f9Lw3j-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Miap7tzGW8VN0-f9Lw3j-4" target="Miap7tzGW8VN0-f9Lw3j-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="390" as="sourcePoint" />
+            <mxPoint x="710" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
