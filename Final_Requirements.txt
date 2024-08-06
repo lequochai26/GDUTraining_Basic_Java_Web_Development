@@ -1,4 +1,4 @@
-- Xây dựng ứng dụng web quản lý công việc cho 2 loại người dùng là quản lý, lập trình viên và kiểm thử viên. Ứng dụng web quản lý công việc được xây dựng bằng ngôn ngữ lập trình Java, JavaEE framework và đáp ứng các yêu cầu sau:
+- Xây dựng ứng dụng web quản lý công việc cho 3 loại người dùng là quản lý, lập trình viên và kiểm thử viên. Ứng dụng web quản lý công việc được xây dựng bằng ngôn ngữ lập trình Java, JavaEE framework và đáp ứng các yêu cầu sau:
 - Người dùng trong hệ thống có các thông tin sau:
 	+ Tên đang nhập
 	+ Mật khẩu
